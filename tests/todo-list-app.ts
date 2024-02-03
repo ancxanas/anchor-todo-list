@@ -25,7 +25,7 @@ describe("todo-list-app", () => {
 
     assert.equal(
       taskAccount.author.toBase58(),
-      author.wallet.publicKey.toBase58()
+      author.wallet.publicKey.toBase58(),
     );
     assert.equal(taskAccount.text, "You are awesome");
     assert.equal(taskAccount.isDone, false);
